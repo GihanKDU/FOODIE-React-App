@@ -17,7 +17,7 @@ const Offers = () => {
   useEffect(() => {
     AOS.init({duration:1000});},[]);
   return (
-    <section className="offer web-view" >
+    <section className="offer web-view " >
       <Container className=" mt-50">
         <Row>
        
