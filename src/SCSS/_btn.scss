@@ -1,0 +1,10 @@
+@import "./variable";
+@import "./font";
+@import "./spacing";
+
+
+
+.button-primary{
+    background-color: $primary-color !important;
+    border: none !important;
+}

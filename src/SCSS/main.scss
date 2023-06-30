@@ -1,0 +1,186 @@
+@import "./variable";
+@import "./font";
+@import "./spacing";
+@import "./btn";
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family:  'inter', sans-serif;
+    font-size: 16px;
+    line-height: 1 !important;
+    color: #333;
+   
+}
+
+
+// Navbar Styles
+
+.navbar{
+    .font-logo{
+        color: $primary-color;
+    }
+    .nav-link{
+        margin-left: 20px;
+        color: $black-primary;
+    }
+}
+
+//All Headings Section
+
+.heading-text{
+    color: $black-primary; 
+}
+
+.heading-text-colored{
+    color: $primary-color !important;
+}
+
+.heading-sentence{
+    color: $ash-primary;
+}
+
+
+//Hero Section
+
+.hero{
+   
+    .section-img{
+        width: 80%;
+    }
+    .form-control{
+        height: 54px !important;
+    }
+    .form-control:focus{
+    box-shadow: none !important ;
+    border-color: $primary-color;
+    }
+    .button-primary{
+        height: 54px !important;
+    }
+    .button-social{
+        background: none !important;
+        border: none !important;
+        padding: 0;
+
+        img{
+            width: 150px;
+        }
+    }
+}
+
+//Quick Menu Section
+
+.quickmenu {
+    .button-circle{
+        background: none !important;
+        border: none !important;
+        padding: 0;
+        color:  $black-primary;
+
+        img{
+            width: 120px;
+        }
+       
+    }
+   
+}
+
+
+//Offer Section
+
+.offer{
+    .card-heading{
+        color: $black-primary;
+    }
+    .rating-text{
+        color: $yellow-primary;
+    }
+    .card-lable{
+        color: $black-secondry;
+    }
+    .card-lable-small{
+        color: $ash-primary;
+    }
+    .card{
+        border: solid 0.2px $ash-secondry;
+    }
+}
+
+//Services Section
+
+.service{
+    img{
+        width: 170px;
+    }
+}
+
+//Ratings Section
+
+.ratings{
+    .feedback-heading{
+        color: $primary-color;
+    }
+    .feedback-text{
+        color: $black-primary;
+    }
+    img{
+        width: 70%;
+    }
+    .f-img{
+        width: 55px;
+        height: 55px;
+    }
+    .f-user{
+        color: $black-primary;
+    }
+    .f-hobby{
+        color: $ash-primary;
+    }
+    
+}
+
+
+
+//Footer
+
+Footer{
+    background: $primary-color;
+    color: $white;
+    padding: 40px 30px 0 30px;
+
+    .button-social{
+        background: none !important;
+        border: none !important;
+        padding: 0;
+
+        img{
+            width: 120px;
+        }
+    }
+    a{
+        color: $white;
+        text-decoration: none !important;
+    }
+}
+
+
+/* Styles for mobile view */
+@media only screen and (max-width: 767px) {
+    .web-view {
+        display: none !important;
+      }
+    .Mobile-view{
+        display: block !important;
+    }
+  }
+  
+  /* Styles for web view */
+  @media only screen and (min-width: 768px) {
+    .web-view {
+        display: block !important;
+      }
+      .Mobile-view{
+        display: none !important;
+    }
+  }
